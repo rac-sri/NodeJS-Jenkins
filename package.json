@@ -1,0 +1,24 @@
+{
+  "name": "node-jenkins-gcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --forceExit --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rachit2501/Node-Jenkins-GCP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rachit2501/Node-Jenkins-GCP/issues"
+  },
+  "homepage": "https://github.com/rachit2501/Node-Jenkins-GCP#readme",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2"
+  }
+}
