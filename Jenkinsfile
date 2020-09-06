@@ -4,6 +4,7 @@ pipeline {
         stage ('test'){  
             agent {docker 'node:12-stretch-slim'} 
             steps {
+               sh 'npm install'
                sh 'npm run test'
             }
         }
