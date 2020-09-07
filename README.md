@@ -1,4 +1,6 @@
-<div align="center">Node + Jenkins Integration Demo<div>
+<div align="center"><h2>Node + Jenkins Integration Demo</h2></div>
+
+---
 
 ### Setup
 
