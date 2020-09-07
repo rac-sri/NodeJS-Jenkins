@@ -14,3 +14,9 @@
 - Create a pipeline project. Choose pipline as scm and add the git configuration.
 - Configure the jenkins global configuration, add Github Server ( api key from github (allow repo_hook, repo)), test connection, and also add Github details in Github Pull Request Builder similarly.
 - In Project (pipeline) configuration, credentials already set in global configuration, choose one. In Admin list: enter you username.
+
+### Configurations
+
+- main branch: Using NodeJS plugin in Jenkins.
+- rawNodeDocker branch: Using NodeJS in Node Docker Container
+- withNodeInstalledOnSlaveMachine: In case of node installation on the agent machine.
