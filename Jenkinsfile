@@ -1,5 +1,9 @@
 pipeline {
     agent { label 'linux'}
+    options {
+        timestamps()
+        ansiColor("xterm")
+    }
     stages{
         stage ('test'){  
             agent {
